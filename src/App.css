@@ -1,0 +1,18 @@
+#root {
+  padding: 1rem;
+}
+
+.products {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto auto;
+}
+
+.product {
+  background-color: bisque;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  pointer-events:stroke;
+}
